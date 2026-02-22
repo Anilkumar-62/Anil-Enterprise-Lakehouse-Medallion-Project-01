@@ -1,0 +1,9 @@
+{
+	"name": "adf-anil-data-pipeline",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4cd84e24-a0f5-4d32-9138-11d75268b8a8",
+		"tenantId": "77fb4ed2-0dac-4acb-844f-437e6d6f601c"
+	}
+}

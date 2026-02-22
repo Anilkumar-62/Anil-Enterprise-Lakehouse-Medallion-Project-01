@@ -1,0 +1,23 @@
+{
+	"name": "ds_Anil_Sink_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_Anil_ADLS_Sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

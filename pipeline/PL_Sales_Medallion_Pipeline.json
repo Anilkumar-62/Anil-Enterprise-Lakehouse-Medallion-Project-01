@@ -1,0 +1,30 @@
+{
+	"name": "PL_Sales_Medallion_Pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/banothanilkumar162000@gmail.com/Read_Bronze_Data"
+				},
+				"linkedServiceName": {
+					"referenceName": "Ls_Anil_Databricks_Output",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-02-22T05:40:40Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

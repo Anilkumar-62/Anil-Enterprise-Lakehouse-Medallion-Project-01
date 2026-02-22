@@ -1,0 +1,43 @@
+{
+	"name": "ds_Anil_SQL_Sales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_Anil_SQL_Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SalesID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CustomerName",
+				"type": "varchar"
+			},
+			{
+				"name": "ProductName",
+				"type": "varchar"
+			},
+			{
+				"name": "Amount",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Sales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
