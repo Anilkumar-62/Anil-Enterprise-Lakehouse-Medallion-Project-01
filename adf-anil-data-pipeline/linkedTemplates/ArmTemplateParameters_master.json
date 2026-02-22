@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-anil-data-pipeline"
+		},
+		"Ls_Anil_ADLS_Sink_accountKey": {
+			"value": ""
+		},
+		"Ls_Anil_Databricks_New_accessToken": {
+			"value": ""
+		},
+		"Ls_Anil_Databricks_Output_accessToken": {
+			"value": ""
+		},
+		"Ls_Anil_SQL_Source_password": {
+			"value": ""
+		},
+		"Ls_anil_Azure_Data_Lake_Storage_Gen2_accountKey": {
+			"value": ""
+		},
+		"Ls_anil_databricks_accessToken": {
+			"value": ""
+		},
+		"Ls_Anil_ADLS_Sink_properties_typeProperties_url": {
+			"value": "https://staanildatalake01.dfs.core.windows.net/"
+		},
+		"Ls_Anil_Databricks_Output_properties_typeProperties_existingClusterId": {
+			"value": "0216-185436-fmky59cr"
+		},
+		"Ls_Anil_SQL_Source_properties_typeProperties_server": {
+			"value": "aniladmin.database.windows.net"
+		},
+		"Ls_Anil_SQL_Source_properties_typeProperties_database": {
+			"value": "sqldb-anil-metadata"
+		},
+		"Ls_Anil_SQL_Source_properties_typeProperties_userName": {
+			"value": "aniladmin"
+		},
+		"Ls_anil_Azure_Data_Lake_Storage_Gen2_properties_typeProperties_url": {
+			"value": "https://staanildatalake01.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
