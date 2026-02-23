@@ -18,7 +18,11 @@ Architecture: Medallion (Bronze/Silver/Gold)
 Key Features & Implementation
 
 Bronze Layer: Ingested raw source data into ADLS Gen2 in its original format using ADF Copy Activities.
+
 Silver Layer (Databricks): Utilized Azure Databricks to perform data cleaning, schema validation, and deduplication using PySpark to ensure data consistency.
+
 Gold Layer (Databricks): Leveraged PySpark notebooks to perform complex business aggregations and loaded the final reporting-ready data into Azure SQL Database.
+
 Data Pipelines: Developed modular ADF pipelines to orchestrate and trigger Databricks notebooks, moving and transforming data across different layers seamlessly.
+
 Security: Implemented Azure Key Vault to securely manage and access sensitive credentials and connection strings.
